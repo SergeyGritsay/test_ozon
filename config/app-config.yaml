@@ -1,0 +1,11 @@
+db:
+  postgres:
+    host: "advertisement-db"
+    port: "5432"
+    password: "12345678"
+    database: "advertisement"
+    user: "advertisement"
+    sslmode: "disable"
+
+app:
+  port: "4000"
